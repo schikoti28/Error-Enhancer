@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essay Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Error Enhancer</h1>
+    <p>
+<img src="https://media.istockphoto.com/id/134843485/vector/confused-emoticon.jpg?s=612x612&w=0&k=20&c=GnHI36kUMFWfl2FAFzDnGUiVSswjUXtVx46Up2qPwDc=" alt="Confused face" style="float:right;width:60px;height:60px;">
+Empowered by an AI grammar checker, this essay proofreader aims to make your essays TERRIBLE! When using our (un)checker, take the advice with a grain (mound) of salt.
+</p>
+    <textarea id="input-text" placeholder="Type your essay here" rows="6" cols="50"></textarea>
+    <button id="check-btn">Check Grammar</button>
+    
+    <!-- Grammar Feedback Section -->
+    <div id="grammar-feedback-header"><b>Grammar Feedback:</b></div> <!-- Grammar header -->
+    <div id="grammar-feedback"></div> <!-- This will show grammar feedback -->
+
+    <!-- Spelling Feedback Section -->
+    <div id="spelling-feedback-header"><b>Spelling Feedback:</b></div> <!-- Spelling header -->
+    <div id="spelling-feedback"></div> <!-- This will show spelling feedback -->
+  
+    <!-- Highlighted Text Section -->
+  <div id="modified-feedback-header"><b>Incorrect/Amazingly Correct Spelling(s):</b></div> <!-- Spelling header -->
+    <div id="highlighted-text"></div> <!-- This will show highlighted text with spelling issues -->
+
+
+    <!-- audio for feedback -->
+<audio id="boo-sound" src="assets/booing audio.mp3"></audio>
+<audio id="cheer-sound" src="assets/cheering audio.mp3"></audio>
+  
+</body>
+<script src="script.js"></script>
+</html>

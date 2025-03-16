@@ -1,0 +1,29 @@
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+}
+
+.fake-error {
+    background-color: red;
+    color: white;
+    padding: 2px 4px;
+}
+
+.correct-word {
+    background-color: green;
+    color: white;
+    padding: 2px 4px;
+}
+
+
